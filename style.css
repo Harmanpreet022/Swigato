@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+#top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    color: black;
+}
+.hr1{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(127, 255, 210); */
+    border: 2px solid rgb(152, 3, 8);
+}
+body{
+    background-color: rgb(253, 251, 252);
+}
+/* Navigation Bar */
+#navbar{
+display: flex;
+background-color: black;
+color: aliceblue;
+align-items: center;
+}
+#logo{
+    width: 20%;
+    text-align: center;
+}
+#logoimage{
+    margin: 5px;
+    padding: 2px;
+    height: 65px;
+    border-radius: 40px;
+}
+#links{
+    width: 60%;
+    
+    
+    
+    
+}
+#navlinks{
+    display: flex;
+    list-style-type: none;
+    
+
+    
+}
+#navlinks li{
+    padding: 25px;
+    
+}
+#navlinks a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Chivo Mono', monospace;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+#navlinks a:hover{
+    color: rgb(2, 118, 79);
+    background-color: aquamarine;
+    transition: 1s;
+}
+#search{
+    width: 20%;
+    text-align: center;
+    align-items: center;
+
+    
+}
+#searchbox{
+    width: 160px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: beige;
+    padding: 5px;
+}
+.hr2{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(127, 255, 210); */
+    border: 2px solid rgb(88, 245, 192);
+}
+/* welcome section */
+#welcome{
+    display: flex;
+    height: 400px;
+   justify-content: center;
+   align-items: center;
+    
+}
+.hr3{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(127, 255, 210); */
+    border: 2px solid rgb(247, 138, 220);}
+    /* About us starts */
+    #aboutus{
+        height: 400px;
+
+    }
+    .hr4{
+        /* border: 3px;
+        border-style: solid;
+        border-color: rgb(127, 255, 210); */
+        border: 2px solid rgb(211, 130, 249);}
+        /* clients section starts */
+        #clients{
+            height: 400px;
+        }
+        .hr5{
+            /* border: 3px;
+            border-style: solid;
+            border-color: rgb(127, 255, 210); */
+            border: 2px solid rgb(248, 233, 118);}
+ /* contact us section starts */
+ #contactus{
+    height: 400px;
+ }
+ .hr6{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(127, 255, 210); */
+    border: 2px solid rgb(245, 196, 20);}
+    /* social media starts here */
+    #social{
+        height: 400px;
+    }
